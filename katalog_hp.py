@@ -26,7 +26,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     # Mengacu pada file yang kamu unggah
-    df = pd.read_csv("database_katalog.xlsx - Sheet1.csv")
+    df = pd.read_csv("database_katalog.xlsx")
     return df
 
 df = load_data()
@@ -78,4 +78,5 @@ else:
 
 # Footer
 st.markdown("---")
+
 st.caption("Aplikasi Katalog Sales - PT Thea Theo Stationary")
